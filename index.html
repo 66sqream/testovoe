@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="infa-block d-flex justify-content-center align-items-center">
+        <div class="infa-block-con d-flex justify-content-between align-items-center w-100">
+            <div class="online-search d-flex align-items-center">
+                <div class="text d-flex align-items-center">
+                    <div class="dot"></div>
+                    <p>Ежедневно: с 9-00 до 21-00</p>
+                </div>
+                <input placeholder="поиск по каталогу" type="search">
+            </div>
+            <div class="blocks d-flex align-items-center">
+                <div class="block d-flex align-items-center">
+                    <p>Заказать расчет кухни</p>
+                    <img src="./img/icon/calculator.svg" alt="">
+                </div>
+                <div class="block d-flex align-items-center">
+                    <p>Заказать дизайн-проект</p>
+                    <img src="./img/icon/triangle.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <img class="navbar-brand" src="./img/logo.svg" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Каталог</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Акции</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Салоны</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">О компании</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Блог</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <p>+7 (999) 111-11-11</p>
+                            <button class="btn btn-outline-success d-flex align-items-center" type="submit">
+                                Заказать обратный звонок
+                                <img src="./img/icon/arrow-right.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="menu-block d-flex flex-column">
+                <div class="title-nav d-flex flex-column">
+                    <ul class="nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <p>-</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Каталог</a>
+                        </li>
+                        <li class="nav-item">
+                            <p>-</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Кухни</a>
+                        </li>
+                        <li class="nav-item">
+                            <p>-</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Все</a>
+                        </li>
+                    </ul>
+                    <h1>Кухни на заказ</h1>
+                </div>
+                <div class="description-nav d-flex flex-column">
+                    <p>Компания «Кухни от природы» более 9 лет предоставляет полный комплекс услуг по продаже, производству, доставке и сборке кухонь на заказ по индивидуальным размерам в Москве и на всей территории московской области — вся заказанная кухонная
+                        мебель изготавливается в соответствии с пожеланиями и требованиями заказчика.</p>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <button class="btn d-flex align-items-center" aria-current="page" href="#"><img src="./img/icon/filter.svg" alt="">показать фильтры</button>
+                        </li>
+                        <div class="select d-flex align-items-center">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Стиль</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle  d-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Материал</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle  d-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Цвет</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle  d-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Тип</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="num-page-grid">
+                <div class="card-block d-flex justify-content-center align-items-center row">
+                    <div class="col">
+                        <div class="card" style="width: 568px;">
+                            <div class="card-img-top cardImg d-flex justify-content-between flex-column">
+                                <p class="chips-top d-flex justify-content-center align-items-center">НОВИНКА</p>
+                                <div class="chips-bottom d-flex align-items-center">
+                                    <p class="chips d-flex justify-content-center align-items-center">
+                                        любой цвет
+                                    </p>
+                                    <p class="chips">
+                                        любые размеры и форма
+                                    </p>
+                                    <p class="chips">
+                                        5 вариантов декора
+                                    </p>
+                                    <p class="chips">
+                                        2 варианта
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body cardInfa d-flex justify-content-between">
+                                <div class="title-price">
+                                    <div class="title-card">
+                                        <p class="card-text ">cовременная кухня</p>
+                                        <h5 class="card-title ">Фуксия</h5>
+                                    </div>
+                                    <div class="price d-flex align-items-end">
+                                        <p class="border-text">Цена за погонный метр</p>
+                                        <div class="price-row d-flex align-items-end">
+                                            <p>от</p>
+                                            <div class="price-col ">
+                                                <s>35 000</s>
+                                                <h6>31 010 ₽</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block d-flex flex-column justify-content-between">
+                                    <div class="block d-flex justify-content-end align-items-center">
+                                        <p>Калькулятор</p>
+                                        <img src="./img/icon/card-calculator.svg " alt=" ">
+                                    </div>
+                                    <button class="button">Узнать стоимость <img src="./img/icon/arrow-btn.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card" style="width: 568px;">
+                            <div class="card-img-top cardImg d-flex justify-content-between flex-column">
+                                <p class="chips-top d-flex justify-content-center align-items-center hit">хит продаж</p>
+                            </div>
+                            <div class="card-body cardInfa d-flex justify-content-between">
+                                <div class="title-price">
+                                    <div class="title-card">
+                                        <p class="card-text ">cовременная кухня</p>
+                                        <h5 class="card-title ">Trento</h5>
+                                    </div>
+                                    <div class="price d-flex align-items-end">
+                                        <p class="border-text">Цена за погонный метр</p>
+                                        <div class="price-row d-flex align-items-end">
+                                            <p>от</p>
+                                            <div class="price-col ">
+                                                <s>35 000</s>
+                                                <h6>29 999 ₽</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block d-flex flex-column justify-content-between">
+                                    <div class="block d-flex justify-content-end align-items-center">
+                                        <p>Калькулятор</p>
+                                        <img src="./img/icon/card-calculator.svg " alt=" ">
+                                    </div>
+                                    <button class="button">Узнать стоимость <img src="./img/icon/arrow-btn.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 "></div>
+                    <div class="col">
+                        <div class="card" style="width: 568px;">
+                            <div class="card-img-top cardImg d-flex justify-content-between flex-column">
+                            </div>
+                            <div class="card-body cardInfa d-flex justify-content-between">
+                                <div class="title-price">
+                                    <div class="title-card">
+                                        <p class="card-text ">cовременная кухня</p>
+                                        <h5 class="card-title ">Бостон</h5>
+                                    </div>
+                                    <div class="price d-flex align-items-end">
+                                        <p class="border-text">Цена за погонный метр</p>
+                                        <div class="price-row d-flex align-items-end">
+                                            <p>от</p>
+                                            <div class="price-col ">
+                                                <h6>31 010 ₽</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block d-flex flex-column justify-content-between">
+                                    <div class="block d-flex justify-content-end align-items-center">
+                                        <p>Калькулятор</p>
+                                        <img src="./img/icon/card-calculator.svg " alt=" ">
+                                    </div>
+                                    <button class="button">Узнать стоимость <img src="./img/icon/arrow-btn.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card" style="width: 568px;">
+                            <div class="card-img-top cardImg d-flex justify-content-between flex-column">
+                            </div>
+                            <div class="card-body cardInfa d-flex justify-content-between">
+                                <div class="title-price">
+                                    <div class="title-card">
+                                        <p class="card-text ">cовременная кухня</p>
+                                        <h5 class="card-title ">Савойя</h5>
+                                    </div>
+                                    <div class="price d-flex align-items-end">
+                                        <p class="border-text">Цена за погонный метр</p>
+                                        <div class="price-row d-flex align-items-end">
+                                            <p>от</p>
+                                            <div class="price-col ">
+                                                <h6>29 999 ₽</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block d-flex flex-column justify-content-between">
+                                    <div class="block d-flex justify-content-end align-items-center">
+                                        <p>Калькулятор</p>
+                                        <img src="./img/icon/card-calculator.svg " alt=" ">
+                                    </div>
+                                    <button class="button">Узнать стоимость <img src="./img/icon/arrow-btn.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 "></div>
+                    <div class="col">
+                        <div class="card" style="width: 568px;">
+                            <div class="card-img-top cardImg d-flex justify-content-between flex-column">
+                                <p class="chips-top d-flex justify-content-center align-items-center">НОВИНКА</p>
+                                <div class="chips-bottom d-flex align-items-center">
+                                    <p class="chips d-flex justify-content-center align-items-center">
+                                        любой цвет
+                                    </p>
+                                    <p class="chips">
+                                        любые размеры и форма
+                                    </p>
+                                    <p class="chips">
+                                        5 вариантов декора
+                                    </p>
+                                    <p class="chips">
+                                        2 варианта
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body cardInfa d-flex justify-content-between">
+                                <div class="title-price">
+                                    <div class="title-card">
+                                        <p class="card-text ">cовременная кухня</p>
+                                        <h5 class="card-title ">Фуксия</h5>
+                                    </div>
+                                    <div class="price d-flex align-items-end">
+                                        <p class="border-text">Цена за погонный метр</p>
+                                        <div class="price-row d-flex align-items-end">
+                                            <p>от</p>
+                                            <div class="price-col ">
+                                                <s>35 000</s>
+                                                <h6>31 010 ₽</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block d-flex flex-column justify-content-between">
+                                    <div class="block d-flex justify-content-end align-items-center">
+                                        <p>Калькулятор</p>
+                                        <img src="./img/icon/card-calculator.svg " alt=" ">
+                                    </div>
+                                    <button class="button">Узнать стоимость <img src="./img/icon/arrow-btn.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card" style="width: 568px;">
+                            <div class="card-img-top cardImg d-flex justify-content-between flex-column">
+                                <p class="chips-top d-flex justify-content-center align-items-center hit">хит продаж</p>
+                            </div>
+                            <div class="card-body cardInfa d-flex justify-content-between">
+                                <div class="title-price">
+                                    <div class="title-card">
+                                        <p class="card-text ">cовременная кухня</p>
+                                        <h5 class="card-title ">Trento</h5>
+                                    </div>
+                                    <div class="price d-flex align-items-end">
+                                        <p class="border-text">Цена за погонный метр</p>
+                                        <div class="price-row d-flex align-items-end">
+                                            <p>от</p>
+                                            <div class="price-col ">
+                                                <s>35 000</s>
+                                                <h6>29 999 ₽</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block d-flex flex-column justify-content-between">
+                                    <div class="block d-flex justify-content-end align-items-center">
+                                        <p>Калькулятор</p>
+                                        <img src="./img/icon/card-calculator.svg " alt=" ">
+                                    </div>
+                                    <button class="button">Узнать стоимость <img src="./img/icon/arrow-btn.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 "></div>
+                    <div class="col">
+                        <div class="card" style="width: 568px;">
+                            <div class="card-img-top cardImg d-flex justify-content-between flex-column">
+                            </div>
+                            <div class="card-body cardInfa d-flex justify-content-between">
+                                <div class="title-price">
+                                    <div class="title-card">
+                                        <p class="card-text ">cовременная кухня</p>
+                                        <h5 class="card-title ">Бостон</h5>
+                                    </div>
+                                    <div class="price d-flex align-items-end">
+                                        <p class="border-text">Цена за погонный метр</p>
+                                        <div class="price-row d-flex align-items-end">
+                                            <p>от</p>
+                                            <div class="price-col ">
+                                                <h6>31 010 ₽</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block d-flex flex-column justify-content-between">
+                                    <div class="block d-flex justify-content-end align-items-center">
+                                        <p>Калькулятор</p>
+                                        <img src="./img/icon/card-calculator.svg " alt=" ">
+                                    </div>
+                                    <button class="button">Узнать стоимость <img src="./img/icon/arrow-btn.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card" style="width: 568px;">
+                            <div class="card-img-top cardImg d-flex justify-content-between flex-column">
+                            </div>
+                            <div class="card-body cardInfa d-flex justify-content-between">
+                                <div class="title-price">
+                                    <div class="title-card">
+                                        <p class="card-text ">cовременная кухня</p>
+                                        <h5 class="card-title ">Савойя</h5>
+                                    </div>
+                                    <div class="price d-flex align-items-end">
+                                        <p class="border-text">Цена за погонный метр</p>
+                                        <div class="price-row d-flex align-items-end">
+                                            <p>от</p>
+                                            <div class="price-col ">
+                                                <h6>29 999 ₽</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block d-flex flex-column justify-content-between">
+                                    <div class="block d-flex justify-content-end align-items-center">
+                                        <p>Калькулятор</p>
+                                        <img src="./img/icon/card-calculator.svg " alt=" ">
+                                    </div>
+                                    <button class="button">Узнать стоимость <img src="./img/icon/arrow-btn.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="d-flex align-items-center">
+                    <a class="page-link" href="#" aria-label="Предыдущая">
+                        <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6ca715" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg></span>
+                    </a>
+                    <ul class="pagination d-flex">
+                        <li class="page-item"><a class="page-link focus" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    </ul>
+                    <a class="page-link" href="#" aria-label="Следующая">
+                        <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6ca715" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></span>
+                    </a>
+                </nav>
+            </div>
+            <div class="order-block">
+                <div class="container d-flex justify-content-center align-items-center flex-column">
+                    <h2><span>Заказать кухню по индивидуальным размерам</span> — ПРОСТО!</h2>
+                    <div class="row d-flex align-items-center justify-content-between w-100 imgText">
+                        <img src="./img/bg-order.png" alt="" class="col imgOrder">
+                        <p class="col description">Специалисты компании «Кухни от природы» разработали специальную схему работы, чтобы вы могли заказать кухонный гарнитур наиболее комфортным для себя образом:</p>
+                    </div>
+                    <div class="row w-100">
+                        <p class="col work">
+                            <b>Мы работаем в Москве и по всей территории Московской области:</b> Апрелевка, Балашиха, Бронница, Верея, Видное, Волоколамск, Воскресенск, Высоковск, Голицыно, Дедовск, Джержинский, Дмитров, Долгопрудный, Домодедово, Дрезна,
+                            Дубна, Железнодорожный, Жуковский, Зарайск, Звенигород, Зеленоград, Ивантеевка, Истра, Кашира, Климовск, Клин, Коломна, Королев, Котельники, Красноармейск, Красногорск, Краснозаводск, Краснознаменск, Кубинка, Куровское, Лобня,
+                            Лосино-Петровский, Лукино-Дулево, Луховицы, Лыткарино, Люберцы, Можайск, Московский, Мытищи, Наро-Фоминск, Ногинск, Одинцово, Ожерелье, Озеры, Орехово-Зуево, Павловский Пасад, Пересвет, Подольск, Протвино, Пушкино, Пущино,
+                            Раменское, Реутов, Рошаль, Руза, Сергиев Посад, Серпухов, Солнечногорск, Старая купавна, Ступино, Сходня, Талдом, Троицк, Фрязино, Химки, Хотьково, Черноголовка, Чехов, Шатура, Щелково, Щербинка, Электрогорск, Электросталь,
+                            Электроугли, Юбилейный, Яхрома
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container">
+        <div class="row foot d-flex justify-content-between align-items-center w-100 flex-wrap">
+            <img src="./img/logo-footer.svg" alt="" class="col">
+            <div class="col num d-flex flex-column align-items-center w-100">
+                <h5>+7(999)111-11-11</h5>
+                <p class="call">перезвоните мне</p>
+            </div>
+            <p class="col workTime w-100">Режим работы: с <b>11.00</b> до <b>20.00</b></p>
+        </div>
+        <footer class="d-flex justify-content-between w-100 flex-wrap">
+            <div class="block d-flex flex-column">
+                <h5>КУХНИ</h5>
+                <div class="kitchen d-flex">
+                    <ul>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Современные</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Классические</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Неоклассика</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Прованс</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Кантри</a></li>
+                    </ul>
+                    <ul>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Хайтек</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Модерн</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Минимализм</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">В скандинавском стиле</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Лофт</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block d-flex flex-column">
+                <h5>МАТЕРИАЛЫ И ТЕХНИКА</h5>
+                <ul>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Фурнитура</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Фасады</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Каркасы</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Столешницы</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Бытовая техника</a></li>
+                </ul>
+            </div>
+            <div class="block d-flex flex-column">
+                <h5>Разделы</h5>
+                <ul>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Каталог</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Акции</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Доставка и сборка</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Оплата</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Адреса салонов</a></li>
+                </ul>
+            </div>
+
+            <div class="block d-flex flex-column">
+                <h5>Покупателям</h5>
+                <ul>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Портфолио</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Блог</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Отзывы</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Гарантии</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Рассрочка</a></li>
+                </ul>
+            </div>
+        </footer>
+        <div class="row footfoot d-flex justify-content-between align-items-center w-100 flex-wrap">
+            <p class="col d-flex">© 2000. Все права защищены</p>
+            <div class="col icons d-flex justify-content-center">
+                <img src="./img/icon/whatsapp.svg" alt="">
+                <img src="./img/icon/tg.svg" alt="">
+                <img src="./img/icon/utube.svg" alt="">
+                <img src="./img/icon/vk.svg" alt="">
+            </div>
+            <p class="col d-flex justify-content-end">Powered by Bannikon</p>
+        </div>
+    </div>
+    <!-- <div class="container ">
+        <div class="row ">
+            <div class="col ">1</div>
+            <div class="col ">2</div>
+            <div class="col ">3</div>
+        </div>
+    </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous ">
+    </script>
+</body>
+
+</html>
